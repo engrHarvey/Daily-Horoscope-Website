@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily-Horoscope</title>
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+  <h1>Choose your Zodiac Sign</h1>
+
+
+  <form action="/daily-horoscope" method="POST" class="buttons">
+    <button class="aries" type="submit" value="aries" name="choice"></button>
+    <button class="taurus" type="submit" value="taurus" name="choice"></button>
+    <button class="gemini" type="submit" value="gemini" name="choice"></button>
+    <button class="cancer" type="submit" value="cancer" name="choice"></button>
+    <button class="leo" type="submit" value="leo" name="choice"></button>
+    <button class="virgo" type="submit" value="virgo" name="choice"></button>
+    <button class="libra" type="submit" value="libra" name="choice"></button>
+    <button class="scorpio" type="submit" value="scorpio" name="choice"></button>
+    <button class="sagittarius" type="submit" value="sagittarius" name="choice"></button>
+    <button class="capricorn" type="submit" value="capricorn" name="choice"></button>
+    <button class="aquarius" type="submit" value="aquarius" name="choice"></button>
+    <button class="pisces" type="submit" value="pisces" name="choice"></button>
+  </form>
+  <div id="horoscopeContainer" class="hidden">
+
+    <%if (locals.sign) {%>
+      <h2><%= sign %></h2>
+      <h3> Daily Horoscope: </h3>
+      <p class="prediction"><%= prediction %></p>
+      <h3>Lucky number: </h3>
+      <p><%= number %></p>
+      <h3>Lucky color: </h3>
+      <p><%= color %></p>
+      <h3>Mantra: </h3>
+      <p><%= mantra %></p>
+      <h3>Remedy: </h3>
+      <p><%= remedy %></p>
+    <% } %>
+    
+  </div>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</body>
+</html>

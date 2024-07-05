@@ -1,0 +1,116 @@
+body {
+  text-align: center;
+  color: white;
+  background-image: url("../images/bg.jpg");
+  margin-bottom: 200px;
+}
+
+button {
+  height: 125px;
+  width: 100px;
+  border-radius: 20px;
+  background-position: center;
+}
+
+.aries {
+  background-image: url("../images/aries.png");
+}
+
+.taurus {
+  background-image: url("../images/taurus.png");
+}
+
+.gemini {
+  background-image: url("../images/gemini.png");
+}
+
+.cancer {
+  background-image: url("../images/cancer.png");
+}
+
+.leo {
+  background-image: url("../images/leo.png");
+}
+
+.virgo {
+  background-image: url("../images/virgo.png");
+}
+
+.libra {
+  background-image: url("../images/libra.png");
+}
+
+.scorpio {
+  background-image: url("../images/scorpio.png");
+}
+
+.sagittarius {
+  background-image: url("../images/sagittarius.png");
+}
+
+.capricorn {
+  background-image: url("../images/capricorn.png");
+}
+
+.aquarius {
+  background-image: url("../images/aquarius.png");
+}
+
+.pisces {
+  background-image: url("../images/pisces.png");
+}
+
+h1 {
+  font-size: 5rem;
+  font-family: "Great Vibes";
+}
+
+h2 {
+  font-size: 3rem;
+  font-family: "Great Vibes";
+}
+
+h3 {
+  font-size: 2rem;
+  font-family: Roboto;
+  font-weight: 700;
+}
+
+p {
+  font-size: 1.5rem;
+  font-family: Roboto;
+}
+
+.prediction {
+  font-size: 1.1rem;
+  padding-left: 300px;
+  padding-right: 300px;
+}
+
+@media (max-width: 1300px) {
+  .prediction {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .prediction {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .prediction {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+
+@media (max-width: 500px) {
+  .prediction {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
