@@ -5,7 +5,7 @@ A simple horoscope website using API.
 ---
 ## Requirements
 
-For development, you will only need Node.js and a node global package, Yarn, installed in your environement.
+For development, you will only need Node.js, API key(check here: https://rapidapi.com/soralapps/api/best-daily-astrology-and-horoscope-api) and a node global package, Yarn, installed in your environement.
 
 ### Node
 - #### Node installation on Windows
